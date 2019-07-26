@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/gwt-2.8.2/gwt-2.8.2/gwt-user.jar"/>
+	<classpathentry kind="lib" path="C:/gwt-2.8.2/gwt-2.8.2/gwt-dev.jar"/>
+	<classpathentry kind="lib" path="C:/gwt-2.8.2/gwt-2.8.2/validation-api-1.0.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/gwt-2.8.2/gwt-2.8.2/validation-api-1.0.0.GA-sources.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-material-2.2.zip"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-material-addins-2.1.1.zip"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-material-jquery-2.2.zip"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-material-table-2.0.1.zip"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-material-themes-2.0-rc3.zip"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-servlet.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-fileupload-1.2.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/mysql-connector-java-5.1.5.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

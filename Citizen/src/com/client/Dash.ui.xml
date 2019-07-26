@@ -1,0 +1,74 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:d="urn:import:com.google.gwt.user.datepicker.client"
+	xmlns:m="urn:import:gwt.material.design.client.ui"  
+	xmlns:ma="urn:import:gwt.material.design.addins.client"
+	>
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+	<g:FormPanel ui:field="form"></g:FormPanel>
+		<m:MaterialPanel marginLeft="320" paddingBottom="15" >
+		 <m:MaterialRow width="260%"  >
+      <m:MaterialRow height="250%">
+        <m:MaterialDatePicker ui:field="db"   placeholder="Date" width="10%"/>
+        
+        <m:MaterialColumn grid="l4" height="250%">
+          <m:MaterialCard backgroundColor="WHITE">
+            <m:MaterialCardContent textColor="BLACK">
+              <m:MaterialCardTitle  textColor="BLACK" text="Dashboard"  />
+               <m:MaterialTextBox ui:field="t3" label="Enter AADHAR NO:"   title="TextBox" ></m:MaterialTextBox>
+              <m:MaterialLabel ui:field="l" ></m:MaterialLabel>
+               <g:FileUpload ui:field="file"></g:FileUpload>
+                <m:MaterialButton  ui:field="b1" text="Upload" waves="LIGHT"  textColor="WHITE" iconType="POLYMER" iconPosition="LEFT"/>
+	<!-- <m:MaterialButton  ui:field="Date1" text="Choose Date"  waves="LIGHT" textColor="WHITE" iconType="POLYMER" iconPosition="LEFT"/> -->
+     	<m:MaterialLabel ui:field="label"  ></m:MaterialLabel>
+     	
+     	
+     	 <m:MaterialLabel ui:field="l2" ></m:MaterialLabel>
+     	 <m:MaterialTextArea ui:field="t" title="TextBox"></m:MaterialTextArea>
+     	 <m:MaterialLabel ui:field="l1" ></m:MaterialLabel>
+     	  <m:MaterialTextBox ui:field="t1" title="TextBox" ></m:MaterialTextBox>
+		 <m:MaterialButton  ui:field="b2" text="Submit" waves="LIGHT"  textColor="WHITE" iconType="POLYMER" iconPosition="LEFT"/>
+		 
+		 
+		 <m:MaterialTextBox ui:field="t2" title="TextBox" ></m:MaterialTextBox>
+		
+		<!-- <m:MaterialDatePicker ui:field="db1"   placeholder="Date" grid="s12"/> -->
+		 
+		
+        <m:MaterialButton  ui:field="b3" text="generate response" waves="LIGHT"  textColor="WHITE" iconType="POLYMER" iconPosition="LEFT"/>
+        
+        
+         <g:FormPanel ui:field="f"></g:FormPanel>
+	<!--  <g:Label ui:field="l1"/>
+	<g:Label ui:field="slabel"/>
+	<g:Label ui:field="label"/>
+	<ma:fileuploader.MaterialFileUploader ui:field="file"  enabled="false"  url="/uploadServlet" maxFileSize="20" shadow="1">
+        <ma:fileuploader.MaterialUploadLabel title="Drag Files to Upload" ></ma:fileuploader.MaterialUploadLabel>
+        </ma:fileuploader.MaterialFileUploader>
+        <g:Label ui:field="l2"/>
+         <g:Label ui:field="l"/>
+		<g:TextArea ui:field="t"></g:TextArea>
+		<g:TextBox ui:field="t1"></g:TextBox>
+		<g:Button ui:field="b1"></g:Button>
+		
+		<g:Button ui:field="b2"></g:Button>
+		-->
+		</m:MaterialCardContent>
+            <m:MaterialCardAction>
+		</m:MaterialCardAction>
+          </m:MaterialCard>
+        </m:MaterialColumn>
+      </m:MaterialRow>
+      </m:MaterialRow>
+      </m:MaterialPanel>
+		
+		<!-- <g:VerticalPanel ui:field="v"></g:VerticalPanel> -->
+		
+	</g:HTMLPanel>
+</ui:UiBinder> 

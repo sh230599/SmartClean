@@ -1,0 +1,3 @@
+# Module citizen
+# RPC service class, partial path of RPC policy file
+com.client.GreetingService, 2FD16017F98CA435E51F0A4F195B348A.gwt.rpc

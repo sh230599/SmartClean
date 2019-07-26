@@ -1,0 +1,46 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui" 
+	xmlns:d="urn:import:com.google.gwt.user.datepicker.client" 
+	xmlns:ma="urn:import:gwt.material.design.addins.client"
+	 xmlns:m.html="urn:import:gwt.material.design.client.ui.html">
+	
+	
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+	  	 <m:MaterialPanel marginLeft="320" paddingBottom="15" >
+		 <m:MaterialRow width="260%"  >
+      <m:MaterialRow height="250%">
+       
+        
+        <m:MaterialColumn grid="l4" height="250%">
+          <m:MaterialCard backgroundColor="WHITE">
+            <m:MaterialCardContent textColor="BLACK">
+              <m:MaterialCardTitle  textColor="BLACK" text="Dashboard"  />
+             <!--  <m:MaterialLabel ui:field="l" width="600 px"></m:MaterialLabel> -->
+               <m:MaterialTextArea label="Location" ui:field="t1" title="TextBox" width="600 px"/>
+               <m:MaterialDatePicker ui:field="db"   placeholder="Date" />
+	      <m:MaterialLabel ui:field="label" width="600 px"></m:MaterialLabel>
+			  <m:MaterialListBox ui:field="listBox2" >
+	
+	 
+ </m:MaterialListBox>
+ </m:MaterialCardContent>
+            <m:MaterialCardAction>
+   <m:MaterialButton  ui:field="b" text="Submit" width="600 px" waves="LIGHT"  textColor="WHITE" iconType="POLYMER" iconPosition="LEFT"/>
+ 
+
+            </m:MaterialCardAction>
+		
+          </m:MaterialCard>
+        </m:MaterialColumn>
+      </m:MaterialRow>
+      </m:MaterialRow>
+      </m:MaterialPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

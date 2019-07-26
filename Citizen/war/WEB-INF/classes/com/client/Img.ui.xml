@@ -1,0 +1,45 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+	xmlns:ma="urn:import:gwt.material.design.addins.client">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<m:MaterialRow addStyleNames="code">
+      <m:MaterialTitle title="Welcome" /> 
+      <m:MaterialSlider ui:field="slider" >
+        <m:MaterialSlideItem>
+          <m:MaterialImage width="1000px"  url="https://image.shutterstock.com/image-vector/illustration-background-world-cleanliness-day-260nw-1181316733.jpg"/>
+          <m:MaterialSlideCaption textAlign="CENTER">
+            
+          </m:MaterialSlideCaption>
+        </m:MaterialSlideItem>
+
+        <m:MaterialSlideItem>
+          <m:MaterialImage width="1000px" url="https://res.cloudinary.com/arre/image/upload/c_scale,w_760,h_425,e_sharpen:100,f_auto,q_auto/v1526973623/civic-duty-3_kh641y.jpg"/>
+          <m:MaterialSlideCaption textAlign="LEFT">
+           
+          </m:MaterialSlideCaption>
+        </m:MaterialSlideItem>
+  
+        <m:MaterialSlideItem>
+          <m:MaterialImage url="https://gwtmaterialdesign.github.io/gwt-material-demo/images/light-blue.jpg"/>
+          <m:MaterialSlideCaption textAlign="RIGHT">
+            
+          </m:MaterialSlideCaption>
+        </m:MaterialSlideItem>
+  
+        <m:MaterialSlideItem>
+          <m:MaterialImage url="https://gwtmaterialdesign.github.io/gwt-material-demo/images/pink.jpg"/>
+          <m:MaterialSlideCaption textAlign="CENTER">
+            <m:MaterialTitle title="This is our big Tagline" description="Here's our small slogan."/>
+          </m:MaterialSlideCaption>
+        </m:MaterialSlideItem>
+      </m:MaterialSlider> 
+</m:MaterialRow>
+	</g:HTMLPanel>
+</ui:UiBinder> 
