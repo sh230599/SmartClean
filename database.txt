@@ -1,3 +1,5 @@
+create database service;
+use service;
 create table clean(Fname varchar(255),Lname varchar(255),Email varchar(255) NOT NULL PRIMARY KEY,Address varchar(255),Pnumber int ,pass varchar(255),confirm varchar(255));
 
 create table citizen(aadhar int NOT NULL PRIMARY KEY,loc varchar(255),file varchar(255),date varchar(255));
